@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="comk.example.admin.navgathi.AddProjectActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#ffff">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:hint="SiteLocation"
+            android:ems="10"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:gravity="center"
+            android:id="@+id/editText2"
+            android:background="@drawable/edittextback" />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:hint="ProjectName"
+            android:ems="10"
+            android:gravity="center"
+            android:id="@+id/editText4"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittextback" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdogrp"
+            android:layout_weight="0.03"
+            android:gravity="center">
+
+            <RadioButton
+                android:text="STEEL"
+                android:layout_width="wrap_content"
+                android:layout_height="73dp"
+                android:id="@+id/radioButton2" />
+
+            <RadioButton
+                android:text="FIBER"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton" />
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:hint="Email"
+            android:ems="10"
+            android:gravity="center"
+            android:id="@+id/editText5"
+            android:background="@drawable/edittextback" />
+
+        <Button
+            android:text="Save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</RelativeLayout>

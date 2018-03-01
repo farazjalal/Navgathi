@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:weightSum="100"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:layout_weight="70"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:text="Task"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView"
+                    android:textStyle="bold"
+                    android:layout_weight="70" />
+            <TextView
+                android:text="Type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1"
+                android:textStyle="bold"
+                android:layout_weight="30" />
+                </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+                <TextView
+                    android:text="Category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2"
+                    android:layout_weight="30" />
+
+            </LinearLayout>
+            </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/gray" />
+
+
+</LinearLayout>

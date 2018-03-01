@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_project"
+            android:icon="@drawable/handshake"
+            android:title="PROJECTS" />
+        <item
+            android:id="@+id/nav_boy"
+            android:icon="@drawable/boy"
+            android:title="USERS" />
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/list"
+
+            android:title="TASK LIST" />
+
+    </group>
+
+
+
+</menu>
